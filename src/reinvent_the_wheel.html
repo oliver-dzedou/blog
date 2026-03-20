@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzedou: Reinvent the Wheel</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="alternate" type="application/rss+xml" title="Dzedou" href="https://oliverdzedou.com/rss.xml" />
+</head>
+<body>
+    <header>
+        <a href="index.html" class="home-link">Dzedou</a>
+        <a href="rss.xml" class="rss-link" type="application/rss+xml" title="Subscribe via RSS">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 11a9 9 0 0 1 9 9"></path>
+                <path d="M4 4a16 16 0 0 1 16 16"></path>
+                <circle cx="5" cy="19" r="1"></circle>
+            </svg>
+            RSS
+        </a>
+    </header>
+    <main>
+        <h1>Reinvent the Wheel</h1>
+        <h3>
+            <time datetime="2025-09-12">2025-09-12</time> </br>
+        </h3>
+        <p>The dependency of civilization on software has increased rapidly over the last 100 years and is definitely near 100% today in 2025. Software is responsible for:</p>
+        <ul>
+            <li>people's identities</li>
+            <li>airplanes, cars</li>
+            <li>warehouses, factories, offices</li>
+            <li>medical equipment</li>
+            <li>videogames, social media</li>
+            <li>distribution and archival of knowledge</li>
+            <li>distribution of books, series, movies and porn</li>
+            <li>et cetera</li>
+        </ul>
+
+        <p>
+            Anecdotally, it is very hard for me to even imagine living without software at this point. Where I live, everything has been digitalized, and I don't even remotely know how to register an appointment with the doctor or buy bus tickets without my phone. If I would like to find out, I would have to search for it, on my phone. Through a set of circumstances I am currently living in a city alone quite far from all of my close friends and family, and I rely on software to stay in contact with them. I pay with software and the number that represents the amount of money that I "own" and can spend on food is also dependent on some <i>highly questionable</i> software. I watch YouTube videos instead of cassettes and I don't play with Lego, I play videogames. Software has become such an existential and fundamental part of the human experience that it really, really doesn't make sense to think of it as a separate thing from our lives anymore, and that has implications. By the way, philosophically, everything "digital" is really "physical" anyway. The silicon is tiny and arranged CPU-wise, and the LEDs are tiny and arranged screen-wise, but it's about as real as it gets. The term "real life" when used to describe everything that <i>doesn't</i> happen in a computer seriously rubs me the wrong way, but I digress.
+        </p>
+
+        <p>
+            The amount of abstractions (including LLMs) used by the average programmer also seems to be growing quite rapidly, or at least has been until recently. Understandably so, since abstractions are great. They ostensibly allow us to be more efficient, because we can skip solving all the difficult technical problems, and instead we can jump right to implementing the meat of our hot new business or game idea. There is however a caveat to that: if people are not forced to solve something difficult, they will generally avoid it. Logically, then, the number of programmers that learn the fundamentals and understand the computer they are programming for is decreasing proportionally to the increase of abstractions, and we collectively decreasingly understand the thing we increasingly depend on.
+        </p>
+
+        <p>
+            Whether you are in the "software is in decline" or "you're just wearing rose-tinted glasses" crowd, some simple logical deduction should at least nudge you towards the former. After all, if we understand it less and less, how can it not be in decline? This should be a little bit alarming, because as established earlier, software is pretty important. Software declining so much that it becomes unbearably slow and unreliable as we add more and more abstractions is already something most of us should strive to avoid if possible, but what's worse, we don't currently have any mechanism to prevent our understanding of software from reaching zero. That may take a very long time to happen, or it may not happen at all, but if it happens, the consequences could be anything, including things like, say, total downfall of human society. As unlikely and pessimistic as that sounds, it has happened many times before in human history, and we should not be so arrogant to think that we are now somehow impervious to it. The Wheel giveth and the Wheel taketh.
+        </p>
+
+        <p>
+            Now, don't get me wrong, I'm not pointing fingers and saying that everyone who uses a hefty amount of abstractions is stupid or evil and actively seeking apocalypse and we the good guys need to stop them. <i>Some</i> are evil; as a game developer that sometimes makes the deeply regrettable decision of participating in online discourse, I've been called "delusional" on multiple occasions for insinuating that I don't use a game engine. Those people have a desire to utilize every shortcut necessary to finish a project as fast as possible, minimize quality, maximize profit, and worst of all, learn nothing along the way and also bring you down with them. Thankfully there are not that many people of this kind, so let us ignore that as we cannot change it. Most people belong to a second, much more pleasant group, that we can very much do something about. They just want to program in peace, use whatever is the stack of choice at the company they work at, get paid, not worry about the consequences of their code, or whether it even has any.
+        </p>
+
+        <p>
+            So what, specifically, do we do? Well, by no means do I suggest that "we all program in assembly" as the so-called "software engineers" like to remark amidst dependency injecting their javas, or something. Some amount of abstractions is absolutely necessary for human progress. Overcorrecting would be just as bad in this regard. Everyone uses abstractions, and there's not much we can, or should do about that. Luckily, all we need, as long as we are only aiming at the latter of the aforementioned groups, is a moderate dose of mindfulness. We can think about how many abstractions we use, and how responsibly we use them. We should be grateful for the work of the giants whose shoulders we stand on and spend time to understand the code we are using. We should reinvent the Wheel.
+        </p>
+
+        <p>
+            One interesting habit is to completely close everything but the text editor when working with, for example, a new library. Just look at the source code of the library you are using and experiment with calling different functions. When you run into an error, read the bit of code that produced the error and try to work out why it happened. An interesting side effect of this endeavour may be a realization that you don't actually need the library at all, just a little part of it that you can implement yourself. Another habit is to constantly ask yourself, how <i>simple</i> can I write this? If you can just iterate over an array of entity structs and do whatever operations you want to do, then you don't need that ECS library, and don't get me started on modern web technologies. A fun experiment to conduct is to think of a productive programming day in terms of how many lines of code you managed to delete, as opposed to how many you managed to add. Do that for a week and see what happens. The static site generator that's been bugging you for a while -- take three days in airplane mode to write your own. Maybe you won't actually end up using it, maybe you will. Who knows. If not, at the very least you will now understand all the decisions and technical details that led up to the one you use being as crappy as it is and learn to appreciate the abstraction more. Or you will decide that the whole concept is crap and go back to writing raw HTML like you used to. Do you know what the byte representation of the structs inside of your program looks like? If you don't, why don't you go and find out? No, it won't make you ship your project faster, but you will know something that not a lot of people do, and not only does that have utility, it's also quite satisfying.
+        </p>
+
+        <p>
+            I will say though, that this kind of work is much more realistic and enjoyable if we are writing code for something that we care about. That's why it's <i>imperative</i> that provided our employment opportunities, we should do our absolute best to select one that we care for a lot, and have enough agency in it to make any kind of difference. Self-employment is even better, given that our financial situation allows us to weigh the fate of human civilization higher than the time-to-market of our new product. Lastly, keep in mind that writing a game from scratch in Vulkan right away is not necessary. If the next-best-possible-thing is using Raylib instead of Unity or Unreal, then do that. It's also important to realize that unless you're pressed for money, there is no shame in a long development cycle. Quite the opposite. Late is once, crap is forever.
+        </p>
+
+        <p>
+            If you think this whole ordeal is just doomsaying, or you just couldn't care less, I still have something in it just for you. Whatever it is you are working on may very well end up much better when you make it from scratch. The human brain works amazingly well under constraints. If you ever have days during which you suffer from the dreaded "Microsoft employee-tis" and can't get any work done, leaning on the fact that you are contributing positively to something might help you get over that, sometimes. Finally, remember that learning a lot is a great way to avoid "impostor syndrome" -- a myth perpetuated by people who don't know anything in order to convince others that it's just a syndrome and they actually know something.
+        </p>
+       <p>
+        (edited <time datetime="2026-03-15">2026-03-15</time>: rewrote to be less abrasive)
+        </p>
+        <br/>
+    </main>
+</body>
+</html>
