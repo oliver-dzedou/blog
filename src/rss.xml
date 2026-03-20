@@ -5,7 +5,37 @@
     <link>https://oliverdzedou.com</link>
     <description>Dzedou's Blog</description>
     <atom:link href="https://oliverdzedou.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI can't replace me, specifically</title>
+      <link>https://oliverdzedou.com/ai_cant_replace_me_specifically.html</link>
+      <description><![CDATA[
+        <p>
+            I know what you think. Don't worry. Before you take out your pitchfork, this is not the umpteenth blog post about AI viability. AI can <i><b>maybe</b></i> take over my job at some point in the future. 
+            I have no problem conceding that point.  If not because it will be better at programming than me (and it seems like it won't anytime soon), then at least because all the managers will think that it is. 
+            I don't care so much about that. At least I will finally have a more convenient excuse to tell my family when I leave the well-paid software industry for good, 
+            other than just the fact that I hate it with a burning passion.
+        </p>
 
+        <p>
+            So, why can't AI replace <i><b>me</b></i>, specifically, and what do I even mean by that? Quite simply, AI can't experience the satisfaction that I do when I look at the 20000 lines of questionable quality code that apparently constitutes my game, and by some
+            miracle of God does almost exactly what I imagined it would do before writing it. AI can't experience the juxtaposition that I do when I feel like a champion for finding a bug, but also realizing that I am
+            a fucking idiot because I put that bug there in the first place. AI can't experience the somewhat cathartic state of confusion that I do after a 14-hour coding bender,
+            nor can it experience the relief I do when I immerse myself in a deep meditation session to clear my head afterwards.
+        </p>
+
+        <p>
+            AI can't experience the bizarre sensation of thinking, speaking and dreaming code after losing yourself in a difficult problem so deep that the only conceivable way you can solve it is in the shower.
+            AI doesn't have memories of first learning programming in <a href="https://en.wikipedia.org/wiki/Delphi_(software)">Delphi</a> at the age of 10, and it quickly becoming one of the few respites from what I thought back then
+            was an ugly, ugly world. 
+            AI can't experience the sense of community that I do when I watch a <a href="https://www.youtube.com/tsoding">Recreational Programming</a> video and see so many people blissfully nerding out over the same things as me.
+            AI will never understand that code makes me happy, sad, satisfied, bewildered, horrified, euphoric, and more.
+            AI can create <b><i>value</i></b>, but it cannot possibly create <b><i>art</i></b>, as long as the definition of art includes some sort of intention, meaning, interpretation or experience with a journey behind it. 
+            And for me, code is art. That's just it.
+        </p>
+      ]]></description>
+      <pubDate>Thu, 19 Mar 2026 15:00:00 GMT</pubDate> 
+      <guid>https://oliverdzedou.com/ai_cant_replace_me_specifically.html</guid> 
+    </item>
     <item>
       <title>Reinvent the Wheel</title>
       <link>https://oliverdzedou.com/reinvent_the_wheel.html</link>
@@ -57,38 +87,5 @@
       <pubDate>Fri, 12 Sep 2025 15:00:00 GMT</pubDate> 
       <guid>https://oliverdzedou.com/reinvent_the_wheel.html</guid> 
     </item>
-
-    <item>
-      <title>AI can't replace me, specifically</title>
-      <link>https://oliverdzedou.com/ai_cant_replace_me_specifically.html</link>
-      <description><![CDATA[
-        <p>
-            I know what you think. Don't worry. Before you take out your pitchfork, this is not the umpteenth blog post about AI viability. AI can <i><b>maybe</b></i> take over my job at some point in the future. 
-            I have no problem conceding that point.  If not because it will be better at programming than me (and it seems like it won't anytime soon), then at least because all the managers will think that it is. 
-            I don't care so much about that. At least I will finally have a more convenient excuse to tell my family when I leave the well-paid software industry for good, 
-            other than just the fact that I hate it with a burning passion.
-        </p>
-
-        <p>
-            So, why can't AI replace <i><b>me</b></i>, specifically, and what do I even mean by that? Quite simply, AI can't experience the satisfaction that I do when I look at the 20000 lines of questionable quality code that apparently constitutes my game, and by some
-            miracle of God does almost exactly what I imagined it would do before writing it. AI can't experience the juxtaposition that I do when I feel like a champion for finding a bug, but also realizing that I am
-            a fucking idiot because I put that bug there in the first place. AI can't experience the somewhat cathartic state of confusion that I do after a 14-hour coding bender,
-            nor can it experience the relief I do when I immerse myself in a deep meditation session to clear my head afterwards.
-        </p>
-
-        <p>
-            AI can't experience the bizarre sensation of thinking, speaking and dreaming code after losing yourself in a difficult problem so deep that the only conceivable way you can solve it is in the shower.
-            AI doesn't have memories of first learning programming in <a href="https://en.wikipedia.org/wiki/Delphi_(software)">Delphi</a> at the age of 10, and it quickly becoming one of the few respites from what I thought back then
-            was an ugly, ugly world. 
-            AI can't experience the sense of community that I do when I watch a <a href="https://www.youtube.com/tsoding">Recreational Programming</a> video and see so many people blissfully nerding out over the same things as me.
-            AI will never understand that code makes me happy, sad, satisfied, bewildered, horrified, euphoric, and more.
-            AI can create <b><i>value</i></b>, but it cannot possibly create <b><i>art</i></b>, as long as the definition of art includes some sort of intention, meaning, interpretation or experience with a journey behind it. 
-            And for me, code is art. That's just it.
-        </p>
-      ]]></description>
-      <pubDate>Thu, 19 Mar 2026 15:00:00 GMT</pubDate> 
-      <guid>https://oliverdzedou.com/ai_cant_replace_me_specifically.html</guid> 
-    </item>
-
   </channel>
 </rss>
