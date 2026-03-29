@@ -6,6 +6,125 @@
     <description>Dzedou's Blog</description>
     <atom:link href="https://oliverdzedou.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Simplicity-oriented programming</title>
+      <link>https://oliverdzedou.com/simplicity_oriented_programming.html</link>
+      <description><![CDATA[
+        <p>
+        <b>1.</b> Abstractions are most often more expensive than whatever you are trying to prevent by adding an abstraction
+        </p>
+        <p>
+        <b>2.</b> Indirections are most often more expensive than whatever you are trying to prevent by adding an indirection
+        </p>
+        <p>
+        <b>3.</b> Dependencies are most often more expensive than whatever you are trying to prevent by adding a dependency
+        </p>
+        <p>
+        <b>4.</b> Complexity hidden behind a procedure call is complexity nonetheless
+        </p>
+        <p>
+        <b>5.</b> Architecture emerges from code, not the other way around
+        </p>
+        <p>
+        <b>6.</b> Most things are simple to change. Data structures are not. Consider them carefully.
+        </p>
+        <p>
+        <b>7.</b> Thinking about computer programs from a very high level or in an overly abstract manner is most often unhelpful
+        </p>
+        <p>
+        <b>8.</b> All programs are, in essence, a set of instructions operating on data. Reasoning that strays too far from this definition is most often unhelpful.
+        </p>
+        <p>
+        <b>9.</b> Architectures or design patterns with a fancy name and a catchy abbreviation are most often extraordinarily unhelpful
+        </p>
+        <p>
+        <b>10.</b> If you value simplicity, then if someone is getting paid in any way for giving you programming advice, you most likely shouldn't listen to that advice
+        </p>
+        <p>    
+        <b>11.</b> If you value simplicity, then you should stick to the fundamentals and avoid most trends, particularly those that promise to be revolutionary
+        </p>
+        <p>   
+        <b>12.</b> Files and packages exist to split code at meaningful interfaces, not to keep things neat and aesthetically pleasing. If long files or a flat file hierarchy are causing you trouble, you need a better text editor 
+        </p>
+        <p>   
+        <b>13.</b> Your workflow needs to be simplicity-oriented too. If you are constantly waiting for an IDE to stop lagging or for a build to finish, it's hard to get anything done
+        </p>
+        <p>
+        <b>14.</b> Over time, most simple code degenerates into complex code. Whenever it happens, that code needs to be revisited promptly, because complexity spreads quickly
+        </p>
+      ]]></description>
+      <pubDate>Sun, 29 Mar 2026 11:00:00 GMT</pubDate> 
+      <guid>https://oliverdzedou.com/simplicity_oriented_programming.html</guid> 
+    </item>
+    <item>
+      <title>Things I have learned working solo</title>
+      <link>https://oliverdzedou.com/things_i_learned_solo_developing_a_game.html</link>
+      <description><![CDATA[
+        <h3>
+            Disclaimer
+        </h3>
+        <p>
+            These are all my personal learnings and may or may not apply to any other person.
+        </p>
+        <h3>
+            1. Inspiration is mostly harmful
+        </h3>
+        <p>
+            The initial dose of inspiration that sparks a bunch of ideas that I can then take and work on is tremendously important. It could be something I've seen in nature or a game I've played recently.
+            However, consuming similar media to the one I am creating to find solutions to design issues or ideas to implement is not very helpful at all. I find that it poisons the quality of the original ideas I have or may have had. It also triggers a comparison reflex in my head, and as we all know, comparison is the thief of joy. I think the best strategy is to distance myself from similar media as far as possible after the initial surge of inspiration.         
+        </p>
+
+        <h3>
+            2. It's hard to find the right amount of consistency
+        </h3>
+        <p>
+            As Stephen Vizinczey said, consistency is a virtue for trains. Even though he was talking about philosophy, I think it applies to design and programming work too. It's extremely hard to be truly productive and solve hard problems, say, at 8:00 every day, at least for me. The solution is not so clear to me though, as working whenever the brain feels like it also doesn't feel great. Not that it would be a problem from a productivity or time-management perspective, but not being bound to a routine does unpleasant things to my brain. I suppose the right balance is somewhere in the middle, but I haven't truly found it yet.
+        </p>
+        <h3>
+            3. Innovation is tiring, don't overdo it
+        </h3>
+        <p>
+            I severely underestimated how hard it is to invent completely new mechanics for a game. Not only are they hard to design in a fun way because you are doing it without reference, it's also hard to know whether people will enjoy them without having access to a hefty amount of playtesters. In hindsight, I would have chosen something more conventional for my first serious solo project.
+        </p>
+
+        <h3>
+            4. Avoid becoming your project
+        </h3>
+        <p>
+            There were times while working on the game when I would be feeling seriously upset if I didn't manage to implement a feature, and elated when I did. This is what I call "becoming your project" and it's tremendously unhelpful for both work and mental health. It's difficult to avoid this toxic relationship with your project if you truly care about it. As far as I can tell, the most effective way to avoid this issue is to remember to be a real person outside of the project, have hobbies you also truly care about, talk to friends, work on mindfulness, and remember to zoom out. 
+        </p>
+
+        <h3>
+            5. Try out a lot of different things before committing
+        </h3>
+        <p>
+            Due to my particular situation, I didn't have as much time as I would have wished to select the project I'm going to commit to. As a result, I'm not entirely sure I made the game that I myself <i>really love</i>. Don't get me wrong, I enjoy playing it, and I genuinely think it's a good game (to the extent that I can rate my own game), but I probably would have made something closer to my heart given another chance to think it through.
+        </p>
+
+        <h3>
+            6. Consider your playtesting prospects
+        </h3>
+        <p>
+            This one is going to directly contradict the previous point in which I suggest making a game for yourself, but I never promised this list would make any sense. Let's face it, unless you are famous, or have a lot of money, it will be hard to do live playtesting with the correct audience. Yes, you can do playtesting with randos from Reddit, but that's hardly the same quality. Therefore, it would be a good idea to make a game such that your friends are the target audience (I didn't), which will give you easy access to quality playtesters. This may not apply if you suspect that your friends are not honest or would sugarcoat feedback.
+        </p>
+
+        <h3>
+            7. Banish regrets
+        </h3>
+        <p>
+            This is not so much a learning, but a word of encouragement, for myself and anyone who can relate. As you can see, I messed up quite a few things, but this post is not called "mistakes I made developing a solo game". After all, mistakes are just learnings in disguise! I have also done a lot of things correctly, but those are not worth writing about, because there is not much to learn from those. Could the game be even better had I done everything correctly and the development process had gone a lot smoother? Well, of course, but there is no point thinking about that. The only thing to be done is to learn and do better next time.
+        </p>
+
+        <h3>
+            Shameless self-plug
+        </h3>
+        <p>
+            If all this made you curious about the game in question, you can find it <a href="https://store.steampowered.com/app/4188570/Biovoid/">here</a>. It's almost finished and the demo will come out soon<sup>TM</sup>
+        </p>
+      ]]></description>
+      <pubDate>Sun, 29 Mar 2026 11:00:00 GMT</pubDate> 
+      <guid>https://oliverdzedou.com/things_i_learned_solo_developing_a_game.html</guid> 
+    </item>
+    <item>
       <title>Some thoughts on free will</title>
       <link>https://oliverdzedou.com/some_thoughts_on_free_will.html</link>
       <description><![CDATA[
