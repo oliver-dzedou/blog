@@ -56,10 +56,10 @@
       <guid>https://oliverdzedou.com/simplicity_oriented_programming.html</guid> 
     </item>
     <item>
-      <title>Things I have learned working solo</title>
+      <title>Things I learned solo developing a game</title>
       <link>https://oliverdzedou.com/things_i_learned_solo_developing_a_game.html</link>
       <description><![CDATA[
-          <h3>
+         <h3>
             Disclaimer
         </h3>
         <p>
@@ -108,7 +108,14 @@
         </p>
 
         <h3>
-            7. Banish regrets
+            7. Understand the type of marketing your game needs
+        </h3>
+        <p>
+            Broadly speaking, there are games that are marketed by screenshots, and games that are marketed by gameplay. My game is decidedly in the latter category. I wasted a lot of time on a "Coming Soon" Steam page with a shiny trailer and screenshots, which, needless to say, didn't generate a lot of traction, because my game is not particularly stunning visually. In fact, within a day of releasing a demo, I accrued as many wishlists as in half a year with no demo. In retrospect, I would basically not bother with marketing at all before my demo release considering the type of my game. 
+        </p>
+
+        <h3>
+            8. Banish regrets
         </h3>
         <p>
             This is not so much a learning, but a word of encouragement, for myself and anyone who can relate. As you can see, I messed up quite a few things, but this post is not called "mistakes I made developing a solo game". After all, mistakes are just learnings in disguise! I have also done a lot of things correctly, but those are not worth writing about, because there is not much to learn from those. Could the game be even better had I done everything correctly and the development process had gone a lot smoother? Well, of course, but there is no point thinking about that. The only thing to be done is to learn and do better next time.
@@ -232,19 +239,15 @@
         </p>
 
         <p>
-            So what, specifically, do we do? Well, by no means do I suggest that "we all program in assembly" as the so-called "software engineers" like to remark amidst dependency injecting their javas, or something. Some amount of abstractions is absolutely necessary for human progress. Overcorrecting would be just as bad in this regard. Everyone uses abstractions, and there's not much we can, or should do about that. Luckily, all we need, as long as we are only aiming at the latter of the aforementioned groups, is a moderate dose of mindfulness. We can think about how many abstractions we use, and how responsibly we use them. We should be grateful for the work of the giants whose shoulders we stand on and spend time to understand the code we are using. We should reinvent the Wheel.
+            So what do we do? Well, by no means do I suggest that "we all program in assembly" as the so-called "software engineers" like to remark amidst dependency injecting their javas, or something. Some amount of abstractions is absolutely necessary for human progress. Overcorrecting would be just as bad in this regard. Everyone uses abstractions, and there's not much we can, or should do about that. Luckily, all we need, as long as we are only aiming at the latter of the aforementioned groups, is a moderate dose of mindfulness. We can think about how many abstractions we use, and how responsibly we use them. We should be grateful for the work of the giants whose shoulders we stand on and spend time to understand the code we are using. We should reinvent the Wheel.
         </p>
 
         <p>
-            One interesting habit is to completely close everything but the text editor when working with, for example, a new library. Just look at the source code of the library you are using and experiment with calling different functions. When you run into an error, read the bit of code that produced the error and try to work out why it happened. An interesting side effect of this endeavour may be a realization that you don't actually need the library at all, just a little part of it that you can implement yourself. Another habit is to constantly ask yourself, how <i>simple</i> can I write this? If you can just iterate over an array of entity structs and do whatever operations you want to do, then you don't need that ECS library, and don't get me started on modern web technologies. A fun experiment to conduct is to think of a productive programming day in terms of how many lines of code you managed to delete, as opposed to how many you managed to add. Do that for a week and see what happens. The static site generator that's been bugging you for a while -- take three days in airplane mode to write your own. Maybe you won't actually end up using it, maybe you will. Who knows. If not, at the very least you will now understand all the decisions and technical details that led up to the one you use being as crappy as it is and learn to appreciate the abstraction more. Or you will decide that the whole concept is crap and go back to writing raw HTML like you used to. Do you know what the byte representation of the structs inside of your program looks like? If you don't, why don't you go and find out? No, it won't make you ship your project faster, but you will know something that not a lot of people do, and not only does that have utility, it's also quite satisfying.
+            I will say though, that this kind of approach is much more realistic and enjoyable if we are writing code for something that we care about. That's why it's <i>imperative</i> that provided our employment opportunities, we do our absolute best to select one that we care for a lot, and have enough agency in it to make any kind of difference. Self-employment is even better, given that our financial situation allows us to weigh the fate of human civilization higher than the time-to-market of our new product. Lastly, keep in mind that writing a game from scratch in Vulkan right away is not necessary. If the next-best-possible-thing is using Raylib instead of Unity or Unreal, then do that. It's also important to realize that unless you're pressed for money, there is no shame in a long development cycle. Quite the opposite. Late is once, crap is forever.
         </p>
 
         <p>
-            I will say though, that this kind of work is much more realistic and enjoyable if we are writing code for something that we care about. That's why it's <i>imperative</i> that provided our employment opportunities, we should do our absolute best to select one that we care for a lot, and have enough agency in it to make any kind of difference. Self-employment is even better, given that our financial situation allows us to weigh the fate of human civilization higher than the time-to-market of our new product. Lastly, keep in mind that writing a game from scratch in Vulkan right away is not necessary. If the next-best-possible-thing is using Raylib instead of Unity or Unreal, then do that. It's also important to realize that unless you're pressed for money, there is no shame in a long development cycle. Quite the opposite. Late is once, crap is forever.
-        </p>
-
-        <p>
-            If you think this whole ordeal is just doomsaying, or you just couldn't care less, I still have something in it just for you. Whatever it is you are working on may very well end up much better when you make it from scratch. The human brain works amazingly well under constraints. If you ever have days during which you suffer from the dreaded "Microsoft employee-tis" and can't get any work done, leaning on the fact that you are contributing positively to something might help you get over that, sometimes. Finally, remember that learning a lot is a great way to avoid "impostor syndrome" -- a myth perpetuated by people who don't know anything in order to convince others that it's just a syndrome and they actually know something.
+            If you think this whole ordeal is just doomsaying, or you just couldn't care less, I still have something in it just for you. Whatever it is you are working on may very well end up much better when you make it from scratch. The human brain works amazingly well under constraints. Also, if you ever have days during which you suffer from the dreaded "Microsoft employee-tis" and can't get any work done, leaning on the fact that you are contributing positively to something might help you get over that, sometimes.
         </p>
       ]]></description>
       <pubDate>Fri, 12 Sep 2025 15:00:00 GMT</pubDate> 
